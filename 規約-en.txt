@@ -1,0 +1,35 @@
+# Project Operating Terms
+# This file contains the rules and policies that all project participants must abide by.
+# It details the purpose, basic principles, communication methods, code management, prohibited activities, and revisions to the terms.
+
+## Purpose
+These terms are intended to ensure the smooth operation of the project and build trust among participants.
+
+## Basic Principles
+- Participants will treat each other with respect.
+- Information will be shared promptly and accurately.
+- Project deliverables will be managed by everyone.
+
+## Communication
+- Regular weekly meetings will be held.
+- Meetings will be held in a Discord conference room.
+- Communication will primarily be via chat tools.
+
+## Code Management
+- Code will be managed on GitHub.
+- Pull requests must be reviewed.
+
+## Prohibited Activities
+- Publishing deliverables publicly without permission.
+- Defamatory and libelous behavior.
+
+## Revision of Terms
+- Revision of Terms will be made with the consent of a majority of participants.
+
+## Disciplinary Actions in the Event of Violation
+- If a violation of the Terms is discovered, the steering committee will verify the facts.
+- Depending on the nature of the violation, disciplinary action will be taken, such as a warning, warning, or temporary suspension.
+- The details of the disciplinary action will be notified to all participants.
+
+## Revision of These Terms
+- Revision of these Terms will be made based on a proposal from the steering committee and with the consent of a majority of participants.

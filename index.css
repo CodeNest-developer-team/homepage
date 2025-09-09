@@ -1,0 +1,149 @@
+/* CodeNest.css - Very bright theme with Noto Sans Japanese font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Seurat', 'Seurat', Arial, Seurat;
+    font-size: 16px;
+    line-height: 1.7;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+a {
+    color: #0078ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+header{
+    background: #ffffff;
+    color: #000000;
+    padding: 1.5em 0;
+}
+
+button, input, textarea, select {
+    font-family: Seurat;
+    background: #fff;
+    color: #000000;
+    border: 1px solid #ffe082;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+code, pre {
+    background: #fffde7;
+    color: #d84315;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+footer {
+    background: #ffffff0e;
+    color: #000000;
+    padding: 1.5em 0;
+    text-align: center;
+}
+/* メインタイトル用スタイル */
+.main-title {
+    font-size: 15em;
+    margin: 0 0 20px 0;
+    color: white;
+    text-align: center;
+}
+.main-subtitle {
+    font-size: 10em;
+    margin: 0 0 20px 0;
+    color: white;
+    text-align: center;
+}
+/* --- Responsive Design for Mobile & Tablet --- */
+@media (max-width: 900px) {
+    header {
+        padding: 1em 0.5em;
+    }
+    nav ul {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 10px;
+    }
+    nav ul li {
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+    }
+    main h1 {
+        font-size: 3em !important;
+    }
+    main h1 + h1 {
+        font-size: 2em !important;
+    }
+    .responsive-center {
+        text-align: center;
+    }
+    table {
+        font-size: 1em !important;
+        width: 100% !important;
+        overflow-x: auto;
+        display: block;
+    }
+    button {
+        width: 100% !important;
+        min-width: 0 !important;
+        font-size: 1em !important;
+        padding: 0.5em 0.5em !important;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 0.5em 0.2em;
+    }
+    h1, h2, h3 {
+        font-size: 1.5em !important;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    main h1 {
+        font-size: 2em !important;
+    }
+    main h1 + h1 {
+        font-size: 1.2em !important;
+    }
+    p, li, td, th {
+        font-size: 1em !important;
+    }
+    nav ul {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 8px;
+    }
+    nav ul li {
+        margin-left: 0 !important;
+        margin-bottom: 8px;
+    }
+    button {
+        width: 100% !important;
+        min-width: 0 !important;
+        font-size: 1em !important;
+        padding: 0.5em 0.5em !important;
+    }
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
