@@ -1,0 +1,5 @@
+plugins:
+  - jekyll-sitemap
+
+# サイトのURLを必ず設定
+url: "https://codenest.f5.si"
