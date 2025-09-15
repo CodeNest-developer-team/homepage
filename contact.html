@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNest お問い合わせ</title>
+    <link rel="icon" type="image/png" href="codenest.png">
+    <link rel="stylesheet" href="CodeNest.css">
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: space-between;"
+                <h1 id="home" style="text-align: left; margin: 0;" id="home"><font color="black">
+<img src="codenest.png" style="height: 40px; vertical-align: middle; margin-right: 10px;"><span style="color: black;">CodeNest</span>
+</font>
+            <nav>
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex;">
+                    <li style="margin-left: 20px;"><a href="index.html" style="color: black; text-decoration: none;">Home</a></li>
+                    <li style="margin-left: 20px;"><a href="member.html" style="color: black; text-decoration: none;">Member</a></li>
+                    <li style="margin-left: 20px;"><a href="Join.html" style="color: black; text-decoration: none;">Join</a></li>
+                    <li style="margin-left: 20px;"><a href="contact.html" style="color: black; text-decoration: none;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main style="max-width: 600px; margin: 100px auto 0 auto; padding: 2em; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <h2 style="text-align: center;">お問い合わせ</h2>
+        <form action="mailto:your@email.com" method="POST" enctype="text/plain" style="display: flex; flex-direction: column; gap: 1.2em;">
+            <label>お名前
+                <input type="text" name="name" required style="width: 100%; padding: 0.5em; border-radius: 6px; border: 1px solid #ccc;">
+            </label>
+            <label>メールアドレス
+                <input type="email" name="email" required style="width: 100%; padding: 0.5em; border-radius: 6px; border: 1px solid #ccc;">
+            </label>
+            <label>お問い合わせ内容
+                <textarea name="message" rows="6" required style="width: 100%; padding: 0.5em; border-radius: 6px; border: 1px solid #ccc;"></textarea>
+            </label>
+            <button type="submit" style="background: #2421fc; color: #fff; border: none; border-radius: 8px; padding: 0.8em 0; font-size: 1.1em; cursor: pointer;">送信</button>
+        </form>
+        <p style="text-align: center; margin-top: 1.5em; color: #888; font-size: 0.95em;">※送信ボタンを押すとメールソフトが起動します。</p>
+    </main>
+</body>
+</html>
